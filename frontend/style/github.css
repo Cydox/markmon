@@ -1,0 +1,19 @@
+<html>
+<head>
+	<link rel="stylesheet" href="style/github.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="js/lib/socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({
+	extensions: ["tex2jax.js"],
+	jax: ["input/TeX", "output/HTML-CSS"],
+
+	"HTML-CSS": { availableFonts: ["TeX"] }
+});
+	</script>
+	<script src="js/preview.js"></script>
+</head>
+<body id="body" class="markdown">
+</body>
+</html>
